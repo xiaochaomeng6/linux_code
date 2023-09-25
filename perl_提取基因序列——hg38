@@ -1,0 +1,51 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+open FILE1, "$ARGV[0]";
+open FILE2, ">$ARGV[1]";
+
+my @name1;
+my $a1;
+my $chr;
+my $header;
+my $seq = "";
+my $a;
+my $fastaFile = "/data3/hxl/hg38/GRCh38_primary_assembly_genome.fa";
+my %seq1;
+my $seq2;
+my $part;
+my $length;
+my $start;
+my $end;
+my $num=-1;
+my $name;
+my $name;
+open IN, "$fastaFile" or die "Cannot find the specified fasta file $fastaFile";
+while(my $line=<IN>){
+        chomp($line);
+        if ($line=~/^>/){ 
+                if (length $seq > 0){ 
+                        $seq1{$header} = $seq;
+                }
+				$a=(split / /,$line)[0];
+                $header = substr($a,1); 
+                $seq = "";
+        }else{
+                $seq.=$line;
+        }
+}
+$seq1{$header} = $seq;
+
+while(<FILE1>){
+   		chomp;
+       @name1=split(/\t/,$_);
+       $name=$name1[0];
+       $chr=$name1[1];
+       $start=$name1[2];
+	   $end=$name1[3];
+		if (defined $seq1{$chr}) {
+            $seq2 = $seq1{$chr};
+            $part = substr($seq2,$start-1, $end-$start+1);
+            print FILE2 ">",$name,"\t",$chr,"\t",$start,"\t",$end,"\n",$part,"\n";
+  }
+}
