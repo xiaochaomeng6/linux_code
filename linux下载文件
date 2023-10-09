@@ -1,0 +1,54 @@
+/vol1/srr/SRR191/054/SRR19159054
+/vol1/srr/SRR191/055/SRR19159055
+/vol1/srr/SRR191/056/SRR19159056
+/vol1/srr/SRR191/057/SRR19159057
+/vol1/srr/SRR191/058/SRR19159058
+/vol1/srr/SRR191/059/SRR19159059
+/vol1/srr/SRR191/060/SRR19159060
+/vol1/srr/SRR191/061/SRR19159061
+/vol1/srr/SRR191/062/SRR19159062
+/vol1/srr/SRR191/063/SRR19159063
+/vol1/srr/SRR191/064/SRR19159064
+/vol1/srr/SRR191/065/SRR19159065
+/vol1/srr/SRR191/066/SRR19159066
+/vol1/srr/SRR191/067/SRR19159067
+——————————————————————————
+ GSE202642
+——————————————————————————
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/055/SRR19159055  /bio
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/056/SRR19159056  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/057/SRR19159057  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/058/SRR19159058  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/059/SRR19159059  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/060/SRR19159060  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/061/SRR19159061  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/062/SRR19159062  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/063/SRR19159063  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/064/SRR19159064  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/065/SRR19159065  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/066/SRR19159066  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR191/067/SRR19159067  /bio 
+
+
+————————————————————————————
+GSE156632 
+____________________________________________________________________
+
+
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/043/SRR12492243  /bio
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/044/SRR12492244  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/045/SRR12492245  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/046/SRR12492246  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/047/SRR12492247  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/048/SRR12492248  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/049/SRR12492249  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/050/SRR12492250  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/051/SRR12492251  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/052/SRR12492252  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/053/SRR12492253  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/054/SRR12492254  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/055/SRR12492255  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/056/SRR12492256  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/057/SRR12492257  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/058/SRR12492258  /bio &&
+ascp -QT -l 500m -P33001 -k 1 -i /data/software/Aspera/aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/srr/SRR124/059/SRR12492259  /bio 
